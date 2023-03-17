@@ -14,11 +14,16 @@ The .csv is used in the keystrokes_build_ml.py/ipynb to train the 3 MLs(SVM, FG,
 The output of the python file is 3 models (.joblib), they can be found in the /models directory.
 
 # Predicting the user
-To simulate the AWS Lambda, I've used flask.
-I've used IntelliJ for this, but you can use any other IDE.
-We now run the flask_lambda_function.py file in the IDE.
-This starts a flask app, locally on : http://127.0.0.1:5000
+* To simulate the AWS Lambda, I've used flask.
+
+* I've used IntelliJ for this, but you can use any other IDE.
+
+* We now run the flask_lambda_function.py file in the IDE.
+
+* This starts a flask app, locally on : http://127.0.0.1:5000
+
 In order to predict the user we must do a POST in Postman to that URL, having a body with this format.
+```
 {
     "Model": "RF",
    "HT": {
@@ -38,3 +43,4 @@ In order to predict the user we must do a POST in Postman to that URL, having a 
         "STD": 47.12
     }
 }
+```
