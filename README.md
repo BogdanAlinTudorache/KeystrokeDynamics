@@ -9,9 +9,11 @@ Please note that all necessary libraries are in the requirements.txt file, you c
 `pip3 install -r requirements.txt`
 
 # Training the models
-As original input we have the: ```keystroke.csv```
-The .csv is used in the keystrokes_build_ml.py/ipynb to train the 3 MLs(SVM, FG, XGBoost)
-The output of the python file is 3 models (.joblib), they can be found in the /models directory.
+As original **input** we use the: ```keystroke.csv```
+
+The .csv holds the data required by the keystrokes_build_ml.py/.ipynb to train the 3 MLs(SVM, FG, XGBoost)
+
+The **output** of the python file is 3 models (.joblib), they can be found in the /models directory.
 
 # Predicting the user
 * To simulate the AWS Lambda, I've used flask.
