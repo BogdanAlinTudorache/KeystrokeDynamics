@@ -5,7 +5,10 @@ This repository focuses on the use of keystroke dynamics as a behavioral biometr
 Hi!
 
 This directory is used to host the source code that builds 3 ML models in order to predict an user based on keystrokes.
-Please note that all necessary libraries are in the requirements.txt file, you can do that using pip/pip3 command:
+
+Please note that all necessary libraries are in the ```requirements.txt``` file.
+
+You can install them using pip/pip3 command:
 `pip3 install -r requirements.txt`
 
 # Training the models
