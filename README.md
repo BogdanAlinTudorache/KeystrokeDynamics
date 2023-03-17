@@ -9,7 +9,7 @@ Please note that all necessary libraries are in the requirements.txt file, you c
 `pip3 install -r requirements.txt`
 
 # Training the models
-As original input we have the: Train_keystroke.csv
+As original input we have the: ```keystroke.csv```
 The .csv is used in the keystrokes_build_ml.py/ipynb to train the 3 MLs(SVM, FG, XGBoost)
 The output of the python file is 3 models (.joblib), they can be found in the /models directory.
 
