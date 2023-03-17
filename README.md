@@ -12,9 +12,9 @@ You can install them using pip/pip3 command:
 `pip3 install -r requirements.txt`
 
 # Training the models
-As original **input** we use the: ```keystroke.csv```
+As original **input** we use the: [keystroke.csv](https://github.com/BogdanAlinTudorache/KeystrokeDynamics/blob/main/keystroke.csv)
 
-The .csv holds the data required by the keystrokes_build_ml.py/.ipynb to train the 3 MLs(SVM, FG, XGBoost)
+The .csv holds the data required by the [keystrokes_build_ml.py](https://github.com/BogdanAlinTudorache/KeystrokeDynamics/blob/main/keystrokes_build_ml.py)/[.ipynb](https://github.com/BogdanAlinTudorache/KeystrokeDynamics/blob/main/keystrokes_build_ml.ipynb) to train the 3 MLs(SVM, FG, XGBoost)
 
 The **output** of the python file is 3 models (.joblib), they can be found in the /models directory.
 
