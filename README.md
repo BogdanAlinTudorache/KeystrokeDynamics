@@ -18,7 +18,7 @@ The .csv holds the data required by the [keystrokes_build_ml.py](https://github.
 
 The **output** of the python file is 3 models (.joblib), they can be found in the /models directory.
 
-# Predicting the user
+# Predicting the user (_to be made public soon_)
 * To simulate the AWS Lambda, I've used flask.
 
 * I've used IntelliJ for this, but you can use any other IDE.
