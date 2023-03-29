@@ -23,7 +23,7 @@ The **output** of the python file is 3 models (.joblib), they can be found in th
 
 * I've used IntelliJ for this, but you can use any other IDE.
 
-* We now run the _flask_lambda_function.py_ file in the IDE.
+* We now run the [flask_lambda_function.py](https://github.com/BogdanAlinTudorache/KeystrokeDynamics/blob/main/flask_lambda_function.py) file in the IDE.
 
 * This starts a flask app, locally on : http://127.0.0.1:5000
 
